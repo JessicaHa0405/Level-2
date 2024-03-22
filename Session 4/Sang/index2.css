@@ -1,0 +1,65 @@
+.bt1 {
+    width: 250px;
+    height: 70px;
+    background-color: #fe804e;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0 lightblue;
+    padding: 10px;
+
+}
+
+
+.img {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://picsum.photos/536/354);
+    box-shadow: 10px 10px 5px 0 lightgray;
+    background-size: cover;
+}
+
+.border {
+    width: 240px;
+    height: 250px;
+    background-color: rgb(95, 255, 220);
+    border-radius: 45px;
+    transform: rotate(40deg);
+    margin-left: 100px;
+}
+
+#transform {
+    width: 250px; 
+    height: 250px;
+    background-color: blue;
+    transition: width 4s, height 4s;
+}
+
+#transform:hover {
+    width: 500px;
+    height: 500px;
+    background-color: darkcyan;
+}
+
+.loading {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://picsum.photos/536/354);
+    background-size: cover;
+    /* riêng */
+    border-radius: 50%;
+    /* border-top: 5px solid black;
+    border-left: 5px dotted pink;
+    border-bottom: 5px dashed green;
+    border-right: 5px double purple; */
+    animation: example 10s linear infinite;
+    /* name | duration | delay | timing | count */
+}
+
+@keyframes example {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,22 @@
+.div_test {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 7px 5px black;
+    /* box-shadow: chiều ngang | chiều dọc | độ mờ | độ lan | màu; */
+}
+
+.div_test:hover {
+    background-color: aqua;
+
+}
+
+.img {
+    opacity: 0.4;
+}
+.hi {
+    color: blueviolet;
+    text-shadow: 4px 4px 7px black
+}

@@ -1,0 +1,117 @@
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.btn_change {
+    background-color: black;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.total_cart {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 26px
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+/* Category Ads */
+
+#ads {
+    margin: 30px 0 30px 0;
+    
+}
+
+#ads .products-img {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+#ads .card-detail-badge {      
+        background: #a6d3dc;
+        text-align: center;
+        border-radius: 30px 30px 30px 30px;
+        color: #000;
+        padding: 5px 10px;
+        font-size: 14px;        
+    }
+
+   
+
+#ads .card:hover {
+            background: #fff;
+            box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+#ads .card-image-overlay {
+        font-size: 20px;
+        
+    }
+
+
+#ads .card-image-overlay span {
+            display: inline-block;              
+        }
+
+
+#ads .ad-btn {
+        text-transform: uppercase;
+        width: 150px;
+        height: 40px;
+        border-radius: 80px;
+        font-size: 16px;
+        line-height: 35px;
+        text-align: center;
+        border: 3px solid rgb(255, 255, 255);
+        display: block;
+        text-decoration: none;
+        margin: 20px auto 1px auto;
+        color: #ffffff;
+        overflow: hidden;        
+        position: relative;
+        background-color: rgb(32, 45, 100);
+    }
+
+#ads .ad-btn:hover {
+            background-color: rgb(26, 26, 26);
+            color: #1e1717;
+            border: 2px solid rgb(28, 28, 28);
+            background: transparent;
+            transition: all 0.3s ease;
+            box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+        }
+
+#ads .ad-title h5 {
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
+.fix_products {
+    width: 320px;
+    height: 400px;
+    
+}

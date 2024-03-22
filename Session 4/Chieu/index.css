@@ -1,0 +1,24 @@
+.cha {
+    width: 400px;
+    height: 300px;
+    background-image: url(https://picsum.photos/536/354);
+}
+.con {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: blueviolet;
+    z-index: 30 ;
+}
+.header2 {
+    position: sticky;
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+    z-index: 30;
+}

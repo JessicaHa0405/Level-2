@@ -1,0 +1,33 @@
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-transform: lowercase;
+}
+.center {
+    text-align: center;
+}
+.image {
+    width: 300;
+    height: 300;
+}
+.test {
+    font-weight: bold;
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 20px;
+    margin: 50px 60px;
+}
+.navigation {
+    text-decoration: none;
+    color: blueviolet;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    font-size: 20px;
+}

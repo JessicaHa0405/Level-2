@@ -1,0 +1,39 @@
+.bgchange {
+    width: 400px;
+    height: 200px;
+    background-color: #7fffd4;
+}
+
+
+@media screen and (max-width: 600px) {
+    .bgchange {
+        background-color: pink;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .bgchange {
+        background-color: green;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .bgchange {
+        background-color: blueviolet;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .bgchange {
+        background-color: crimson;
+    }    
+}
+
+@media screen and (min-width: 1200px) {
+    .bgchange {
+        background-color: deeppink;
+    }    
+}

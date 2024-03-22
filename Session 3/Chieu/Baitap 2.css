@@ -1,0 +1,29 @@
+.center {
+    text-align: center;
+    /* width: 800px;
+    height: 550px; */
+    /* background-color: bisque; */
+    /* background-image: linear-gradient(to right hotpink,greenyellow); */
+    background-image: url(https://cdn.printnetwork.com/production/assets/themes/5966561450122033bd4456f8/imageLocker/5f206dc35d4bff1ada62fb4c/blog/blog-description/1647973541988_restaurant-banner.png);
+    background-size: cover;
+    margin: 50px 70px;
+}
+
+.highlight {
+    color: red;
+    font-weight: 800;
+}
+
+.font {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+    text-align: left;
+    margin: 50px 20px;
+}
+
+body {
+    display: flex;
+    justify-content: center
+}

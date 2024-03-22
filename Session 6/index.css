@@ -1,0 +1,157 @@
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #004666;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    align-items: center;
+    
+}
+
+
+.logo {
+    width: 220px;
+    height: 220px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+}
+
+.a:hover {
+    color: grey;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #00628F;
+    
+}
+
+.contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 600px;
+    font-size: 19px;
+}
+
+.hr {
+    border-color: black;
+    width: 950px;
+    
+}
+
+.vertical {
+    border-color: black;
+    width: 0px;
+    min-height: 120px;
+}
+
+.text1 {
+    color: white;
+}
+
+.contents2 {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    gap: 50px;
+}
+
+
+.img {
+    width: 90px;
+    height: 90px;
+    padding-top: 20px;
+    
+}
+
+.hotline {
+    padding-top: 20px;
+}
+.contents3 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.text2 {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.a2 {
+    color: #f6d21b;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.nav2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    
+    
+}
+
+.nav3 {
+    padding-bottom: 40px;
+}
+
+.mastercard_tick {
+    width: 70px;
+    height: 30px;
+    
+}
+
+.policy {
+    color: rgb(95, 207, 232);
+
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    background-color: #2a7496;
+    color: white;
+    border-radius: 5%;
+    border-style: hidden;
+    font-weight: bold;
+}
+
+.contents4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}

@@ -1,0 +1,63 @@
+.bg {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(240, 235, 229);
+    font-weight: bold;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 96%;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between;
+    font-weight: bold;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.header2 {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.input {
+    width: 400px;
+    height: 20px;
+}
+
+.input2 {
+    width: 410px;
+    height: 25px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    padding: 20px;
+    font-weight: normal;
+}
